@@ -47,6 +47,10 @@ const Tracking = () => {
                 <p className="w-full">Sales Tax:</p>{" "}
                 <p className="w-full text-right">$15</p>
               </div>
+              <div className="flex ">
+                <p className="w-full">Total:</p>{" "}
+                <p className="w-full text-right">$15015</p>
+              </div>
             </div>
             <div className="h-2/6 w-full ">
               <button className="w-5/6 h-2/3 m-auto ml-5 p-2 border-2 border-green-500 text-green-500 rounded-xl shadow-lg hover:bg-green-500 hover:text-white">

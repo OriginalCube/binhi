@@ -12,7 +12,7 @@ const TrackItem = () => {
       </div>
       <div className="mt-2 ml-4">
         <p className="font-medium text-4xl">Carrots</p>
-        <p className="text-2xl text-orange-500">$ 1500</p>
+        <p className="text-2xl text-green-500">$ 1500</p>
       </div>
     </div>
   );

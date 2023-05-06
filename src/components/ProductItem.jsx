@@ -14,7 +14,7 @@ const ProductItem = (props) => {
         <div className="opacity-80 pl-4 flex">
           <div className="h-full w-2/3 ">
             <p className="font-lightbold text-2xl">{props.name}</p>
-            <p className="font-lightbold text-xl text-yellow-500">
+            <p className="font-lightbold text-xl text-green-500">
               $ {props.price}
             </p>{" "}
           </div>
@@ -22,7 +22,7 @@ const ProductItem = (props) => {
             <img
               onClick={props.onSuccess}
               src="./assets/icons/shopping-cart.png"
-              className="h-10 w-10 p-2 m-auto mt-2 bg-yellow-500 rounded-xl cursor-pointer"
+              className="h-10 w-10 p-2 m-auto mt-2 bg-green-500 rounded-xl cursor-pointer"
               alt=""
             />
           </div>

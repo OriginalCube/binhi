@@ -5,6 +5,7 @@ import Optionbar from "./components/Optionbar";
 import Login from "./components/Login";
 import Products from "./components/Products";
 import Tracking from "./components/Tracking";
+import About from "./components/About";
 
 const Main = () => {
   const [option, setOption] = React.useState(false);
@@ -22,6 +23,7 @@ const Main = () => {
           <Route path="login" element={<Login />} />
           <Route path="products" element={<Products />} />
           <Route path="tracking" element={<Tracking />} />
+          <Route path="about" element={<About />} />
         </Routes>
       </div>
     </div>

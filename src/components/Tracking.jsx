@@ -15,12 +15,12 @@ const Tracking = () => {
         <div style={{ width: "85%" }} className=" h-full ">
           <div className="h-full flex flex-col m-auto" style={{ width: "95%" }}>
             <div className="h-1/6 w-full">
-              <p className="mt-12 ml-5 text-5xl font-medium text-yellow-500">
+              <p className="mt-12 ml-5 text-7xl font-medium text-green-500">
                 Cart
               </p>
             </div>
             <div className="w-full h-full">
-              <div className="w-full h-auto m-auto border-t-2 border-lime-400">
+              <div className="w-full h-auto m-auto border-t-2 border-green-500">
                 {products.map((e, index) => (
                   <TrackItem
                     key={index}

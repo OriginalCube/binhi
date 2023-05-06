@@ -94,7 +94,7 @@ const Login = (props) => {
     <div className="register bg-indigo-100">
       <div className="registerWrapper mt-16 border-2 border-gray-200 shadow-xl rounded-xl bg-white">
         <form onSubmit={submitVal}>
-          <p className="registerText text-2xl font-semibold">Login Page</p>
+          <p className="registerText text-2xl font-lightbold">Login Page</p>
           {inputs.map((input) => (
             <FormInputs
               key={input.id}
@@ -103,7 +103,7 @@ const Login = (props) => {
               onChange={onChange}
             />
           ))}
-          <button className="text-yellow-500 rounded-xl shadow-xl text-xl w-2/3 mt-2 p-2 bg-white border-2 border-yellow-500 font-medium hover:text-white hover:bg-yellow-500">
+          <button className="text-green-500 rounded-xl shadow-xl text-xl w-2/3 mt-2 p-2 bg-white border-2 border-green-500 font-medium hover:text-white hover:bg-green-500">
             Login
           </button>
         </form>
@@ -113,7 +113,7 @@ const Login = (props) => {
         style={{ left: "55%" }}
       >
         <form onSubmit={submitVal}>
-          <p className="registerText text-2xl font-semibold">Register Page</p>
+          <p className="registerText text-2xl font-lightbold">Register Page</p>
           {inputsR.map((input, index) => (
             <FormInputs
               key={index}
@@ -122,7 +122,7 @@ const Login = (props) => {
               onChange={onChange1}
             />
           ))}
-          <button className="text-yellow-500 rounded-xl shadow-xl text-xl w-2/3 mt-2 p-2 bg-white border-2 border-yellow-500 font-medium hover:text-white hover:bg-yellow-500">
+          <button className="text-green-500 rounded-xl shadow-xl text-xl w-2/3 mt-2 p-2 bg-white border-2 border-green-500 font-medium hover:text-white hover:bg-green-500">
             Register
           </button>
         </form>

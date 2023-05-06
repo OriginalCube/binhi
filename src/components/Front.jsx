@@ -11,9 +11,9 @@ const Front = () => {
           <div className="mt-60" style={{ width: "85%" }}>
             <p className="text-6xl font-bold leading-snug opacity-90 text-justify">
               Welcome to our website, where you can find a wide
-              <span className="text-yellow-500"> variety of fresh </span>
+              <span className="text-green-500"> variety of fresh </span>
               <span>and </span>
-              <span className="text-yellow-500">
+              <span className="text-green-500">
                 delicious vegetables for sale.{" "}
               </span>
             </p>{" "}
@@ -21,8 +21,8 @@ const Front = () => {
           <div className="">
             <Link to="products">
               <button
-                className="m-auto mt-10 text-4xl p-4 text-yellow-500 rounded-xl shadow-lg 
-              hover:text-white hover:shadow-xl hover:bg-yellow-500 border-2 border-yellow-500"
+                className="m-auto mt-10 text-4xl p-4 text-green-500 rounded-xl shadow-lg 
+              hover:text-white hover:shadow-xl hover:bg-green-500 border-2 border-green-500"
               >
                 Products
               </button>{" "}

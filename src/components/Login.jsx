@@ -91,8 +91,8 @@ const Login = (props) => {
   };
 
   return (
-    <div className="register bg-green-100">
-      <div className="registerWrapper">
+    <div className="register bg-indigo-100">
+      <div className="registerWrapper mt-16 border-2 border-gray-200 shadow-xl rounded-xl bg-white">
         <form onSubmit={submitVal}>
           <p className="registerText text-2xl font-semibold">Login Page</p>
           {inputs.map((input) => (
@@ -103,10 +103,15 @@ const Login = (props) => {
               onChange={onChange}
             />
           ))}
-          <button>Submit</button>
+          <button className="text-yellow-500 rounded-xl shadow-xl text-xl w-2/3 mt-2 p-2 bg-white border-2 border-yellow-500 font-medium hover:text-white hover:bg-yellow-500">
+            Login
+          </button>
         </form>
       </div>
-      <div className="registerWrapper" style={{ left: "55%" }}>
+      <div
+        className="registerWrapper mt-16 border-2 border-gray-200 shadow-xl rounded-xl bg-white"
+        style={{ left: "55%" }}
+      >
         <form onSubmit={submitVal}>
           <p className="registerText text-2xl font-semibold">Register Page</p>
           {inputsR.map((input, index) => (
@@ -117,7 +122,9 @@ const Login = (props) => {
               onChange={onChange1}
             />
           ))}
-          <button>Submit</button>
+          <button className="text-yellow-500 rounded-xl shadow-xl text-xl w-2/3 mt-2 p-2 bg-white border-2 border-yellow-500 font-medium hover:text-white hover:bg-yellow-500">
+            Register
+          </button>
         </form>
       </div>
     </div>

@@ -16,26 +16,26 @@ const Optionbar = (props) => {
 
   return (
     <div
-      className="relative bg-gray-200 flex flex-col opacity-80 z-50"
-      style={{ height: "100vh", width: "100%" }}
+      className="fixed bg-lime-500 text-black flex flex-col z-50"
+      style={{ height: "100vh", width: "15%" }}
     >
       <div className="w-full" style={{ height: "8%" }}>
-        <div className="flex mt-2">
+        <div className="flex mt-2 ">
           <img
             onClick={props.onOption}
-            className="h-16 w-16"
-            src="./assets/icons/menu.png"
+            className="h-24 w-1/2 m-auto p-3 rounded-xl opacity-80"
+            src="./assets/images/Logo.png"
             alt=""
           />
-          <p className="text-5xl font-bold mt-3 ml-4">BINHI</p>
         </div>
       </div>
-      <div className="w-full flex flex-col h-auto">
+      <div className="w-full flex flex-col mt-8 h-auto">
         <div className="w-5/6 mt-2 m-auto">
           <TextField
             id="outlined-basic"
             label="Search Bar"
             variant="outlined"
+            color="success"
           />
         </div>
         <div className="mt-2 h-auto">
@@ -69,14 +69,16 @@ const Optionbar = (props) => {
                   <p>Account</p>{" "}
                 </div>{" "}
               </Link>
-              <div className="w-5/6 m-auto mt-2 flex">
-                <img
-                  src="./assets/icons/delivery-truck.png"
-                  className="h-8 w-8 mr-3 opacity-80"
-                  alt=""
-                />
-                <p>Order Tracking</p>{" "}
-              </div>
+              <Link to="tracking">
+                <div className="w-5/6 m-auto mt-2 flex">
+                  <img
+                    src="./assets/icons/delivery-truck.png"
+                    className="h-8 w-8 mr-3 opacity-80"
+                    alt=""
+                  />
+                  <p>Order Tracking</p>{" "}
+                </div>{" "}
+              </Link>
               <div className="w-5/6 m-auto mt-2 flex">
                 <img
                   src="./assets/icons/about.png"
@@ -106,14 +108,16 @@ const Optionbar = (props) => {
         </div>
         {products ? (
           <div className="text-xl font-semibold flex flex-col opacity-80">
-            <div className="w-5/6 m-auto mt-2 flex ">
-              <img
-                src="./assets/icons/star.png"
-                className="h-8 w-8 mr-3 opacity-80"
-                alt=""
-              />
-              <p>Favorites</p>{" "}
-            </div>
+            <Link to="products">
+              <div className="w-5/6 m-auto mt-2 flex ">
+                <img
+                  src="./assets/icons/star.png"
+                  className="h-8 w-8 mr-3 opacity-80"
+                  alt=""
+                />
+                <p>Favorites</p>{" "}
+              </div>{" "}
+            </Link>
             <div className="w-5/6 m-auto mt-2 flex">
               <img
                 src="./assets/icons/about.png"

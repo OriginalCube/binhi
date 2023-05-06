@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navigation from "./components/Navigation";
 import Front from "./components/Front";
 import Optionbar from "./components/Optionbar";
 import Login from "./components/Login";
+import Products from "./components/Products";
 
 const Main = () => {
   const [option, setOption] = React.useState(false);
@@ -11,13 +11,17 @@ const Main = () => {
     setOption(!option);
   };
   return (
-    <div className="h-auto w-sreen">
-      {option ? <Optionbar onOption={onOption} /> : null}
-      <Navigation onOption={onOption} />
-      <Routes>
-        <Route index element={<Front />} />
-        <Route path="login" element={<Login />} />
-      </Routes>
+    <div className="h-auto w-sreen flex">
+      <div className="h-full" style={{ width: "15vw" }}>
+        <Optionbar onOption={onOption} />
+      </div>
+      <div style={{ width: "85vw" }}>
+        <Routes>
+          <Route index element={<Front />} />
+          <Route path="login" element={<Login />} />
+          <Route path="products" element={<Products />} />
+        </Routes>
+      </div>
     </div>
   );
 };

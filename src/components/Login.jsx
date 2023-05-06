@@ -91,7 +91,7 @@ const Login = (props) => {
   };
 
   return (
-    <div className="register">
+    <div className="register bg-green-100">
       <div className="registerWrapper">
         <form onSubmit={submitVal}>
           <p className="registerText text-2xl font-semibold">Login Page</p>

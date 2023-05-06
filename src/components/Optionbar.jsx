@@ -16,8 +16,8 @@ const Optionbar = (props) => {
 
   return (
     <div
-      className="fixed bg-green-300 flex flex-col opacity-80 z-50"
-      style={{ height: "100vh", width: "15vw" }}
+      className="relative bg-gray-200 flex flex-col opacity-80 z-50"
+      style={{ height: "100vh", width: "100%" }}
     >
       <div className="w-full" style={{ height: "8%" }}>
         <div className="flex mt-2">
@@ -27,6 +27,7 @@ const Optionbar = (props) => {
             src="./assets/icons/menu.png"
             alt=""
           />
+          <p className="text-5xl font-bold mt-3 ml-4">BINHI</p>
         </div>
       </div>
       <div className="w-full flex flex-col h-auto">

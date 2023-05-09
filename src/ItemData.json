@@ -1,0 +1,8 @@
+{
+  "fruits": [
+    { "name": "Apple", "Price": 150, "image": "./asstes/images" },
+    { "name": "Grapes", "Price": 150, "image": "./" },
+    { "name": "Math", "Price": 150, "image": "./" },
+    { "name": "Apple", "Price": 150, "image": "./" }
+  ]
+}

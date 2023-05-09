@@ -16,7 +16,7 @@ const Optionbar = (props) => {
 
   return (
     <div
-      className="fixed bg-yellow-500 text-white flex flex-col z-50"
+      className="fixed bg-emerald-600 text-white flex flex-col z-50"
       style={{ height: "100vh", width: "15%" }}
     >
       <div className="w-full" style={{ height: "8%" }}>
@@ -97,47 +97,19 @@ const Optionbar = (props) => {
                 />
                 <p>Help</p>{" "}
               </div>
+              <Link to="about">
+                <div className="w-5/6 m-auto mt-2 flex">
+                  <img
+                    src="./assets/icons/about.png"
+                    className="h-8 w-8 mr-3 opacity-80"
+                    alt=""
+                  />
+                  <p>Product</p>{" "}
+                </div>{" "}
+              </Link>
             </div>
           ) : null}
         </div>
-        <div className="w-full">
-          <p
-            onClick={onProducts}
-            className="text-3xl font-lightbold opacity-80 text-center mt-2"
-          >
-            Products
-          </p>
-        </div>
-        {products ? (
-          <div className="text-xl font-semibold flex flex-col opacity-80">
-            <Link to="products">
-              <div className="w-5/6 m-auto mt-2 flex ">
-                <img
-                  src="./assets/icons/star.png"
-                  className="h-8 w-8 mr-3 opacity-80"
-                  alt=""
-                />
-                <p>Favorites</p>{" "}
-              </div>{" "}
-            </Link>
-            <div className="w-5/6 m-auto mt-2 flex">
-              <img
-                src="./assets/icons/apple.png"
-                className="h-8 w-8 mr-3 opacity-80"
-                alt=""
-              />
-              <p>Fruits</p>{" "}
-            </div>
-            <div className="w-5/6 m-auto mt-2 flex">
-              <img
-                src="./assets/icons/vegetable.png"
-                className="h-8 w-8 mr-3 opacity-80"
-                alt=""
-              />
-              <p>Veggies</p>{" "}
-            </div>
-          </div>
-        ) : null}
         <div className="w-5/6 m-auto mt-4 flex">
           <img
             src="./assets/icons/bell.png"

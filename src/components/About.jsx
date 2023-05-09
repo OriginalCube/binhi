@@ -14,6 +14,12 @@ const About = () => {
       details:
         "I bring a wealth of experience to our organization, having worked in a variety of finance roles throughout their career. They are a wizard when it comes to financial planning, budgeting, and forecasting, and their ability to analyze data and spot trends is nothing short of legendary.",
     },
+    {
+      name: "Cisco San Juan",
+      role: "Dad jokes giver",
+      details:
+        "I bring a wealth of experience to our organization, having worked in a variety of finance roles throughout their career. They are a wizard when it comes to financial planning, budgeting, and forecasting, and their ability to analyze data and spot trends is nothing short of legendary.",
+    },
   ];
   const AboutTemplate = (ev) => (
     <div className="w-full h-1/2 flex flex-col">

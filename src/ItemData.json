@@ -1,8 +1,15 @@
 {
   "fruits": [
-    { "name": "Apple", "Price": 150, "image": "./asstes/images" },
-    { "name": "Grapes", "Price": 150, "image": "./" },
-    { "name": "Math", "Price": 150, "image": "./" },
-    { "name": "Apple", "Price": 150, "image": "./" }
+    { "name": "Apple", "price": 150, "image": "./asstes/images" },
+    { "name": "Grapes", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" },
+    { "name": "Apple", "price": 150, "image": "./" },
+    { "name": "Apple", "price": 150, "image": "./" }
+  ],
+  "Dairy": [
+    { "name": "Milk", "price": 150, "image": "./asstes/images" },
+    { "name": "Egg", "price": 150, "image": "./" },
+    { "name": "Bread", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" }
   ]
 }

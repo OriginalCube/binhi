@@ -3,20 +3,14 @@ import React from "react";
 const About = () => {
   const details = [
     {
-      name: "Mathew Mamplata",
-      role: "Tagaluto ng Pansit canton",
+      name: "Spongebob",
+      role: "CEO",
       details:
         "With a focus on innovation, quality, and customer satisfaction, I have been an instrumental in driving the growth of our company. Their visionary approach has led to the development of groundbreaking products and services that have helped us maintain our position as a leader in the industry.",
     },
     {
-      name: "Rafael Rimas",
-      role: "Dad jokes giver",
-      details:
-        "I bring a wealth of experience to our organization, having worked in a variety of finance roles throughout their career. They are a wizard when it comes to financial planning, budgeting, and forecasting, and their ability to analyze data and spot trends is nothing short of legendary.",
-    },
-    {
-      name: "Cisco San Juan",
-      role: "Dad jokes giver",
+      name: "Patrick",
+      role: "CFO",
       details:
         "I bring a wealth of experience to our organization, having worked in a variety of finance roles throughout their career. They are a wizard when it comes to financial planning, budgeting, and forecasting, and their ability to analyze data and spot trends is nothing short of legendary.",
     },
@@ -41,6 +35,7 @@ const About = () => {
   );
   return (
     <div className="w-full h-auto">
+      <p className="text-3xl"></p>
       <div className="w-full h-screen">
         {details.map((e) => (
           <AboutTemplate name={e.name} role={e.role} details={e.details} />

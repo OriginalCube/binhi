@@ -1,6 +1,7 @@
 import React from "react";
 import ProductItem from "./ProductItem";
-import ItemData from "../ItemData.json";
+import ItemData from "../../ItemData.json";
+import ProductNav from "./ProductNav";
 
 const Products = () => {
   const [success, setSuccess] = React.useState(false);
@@ -23,6 +24,7 @@ const Products = () => {
           </p>
         </div>
       ) : null}
+      <ProductNav />
       <div className="h-auto w-full">
         <div className="h-auto w-full flex flex-wrap justify-evenly gap-3 bg-indigo-100">
           {ItemData["fruits"].map((e, index) => (

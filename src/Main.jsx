@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Front from "./components/Front";
 import Optionbar from "./components/Optionbar";
 import Login from "./components/Login";
-import Products from "./components/Products";
+import Products from "./components/product/Products";
 import Tracking from "./components/Tracking";
 import About from "./components/About";
 

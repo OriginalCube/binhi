@@ -5,6 +5,33 @@ import ProductNav from "./ProductNav";
 
 const Products = () => {
   const [success, setSuccess] = React.useState(false);
+  const [productId, setProductId] = React.useState([
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+  ]);
+
+  const changeNav = (e) => {
+    if (e >= 0) {
+      productId.forEach((ev, index) =>
+        index !== e ? (productId[index] = false) : (productId[index] = true)
+      );
+    } else if (e === -1) {
+      productId.forEach((ev, index) => (productId[index] = true));
+    } else if (e === -2) {
+      productId.forEach((ev, index) =>
+        index % 2 === 0 ? (productId[index] = false) : (productId[index] = true)
+      );
+    }
+    setProductId([...productId]);
+  };
 
   const onSuccess = () => {
     setSuccess(!success);
@@ -24,19 +51,120 @@ const Products = () => {
           </p>
         </div>
       ) : null}
-      <ProductNav />
+      <ProductNav changeNav={changeNav} />
       <div className="h-auto w-full">
-        <div className="h-auto w-full flex flex-wrap justify-evenly gap-3 bg-indigo-100">
-          {ItemData["fruits"].map((e, index) => (
-            <ProductItem
-              onSuccess={onSuccess}
-              key={index}
-              name={e.name}
-              price={e.price}
-              image={e.image}
-            />
-          ))}
-        </div>
+        {productId[0] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Fruits</p>
+            {ItemData["fruits"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
+        {productId[1] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Veggies</p>
+            {ItemData["Veggies"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
+        {productId[2] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Grains</p>
+            {ItemData["Veggies"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
+        {productId[3] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Root Croops</p>
+            {ItemData["Grains"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
+        {productId[4] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Meats</p>
+            {ItemData["Root"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
+        {productId[5] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Poultry</p>
+            {ItemData["Meats"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
+        {productId[6] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Dairy</p>
+            {ItemData["Poultry"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
+        {productId[7] ? (
+          <div className="h-auto w-full pb-10 flex flex-wrap justify-evenly gap-3 bg-indigo-100">
+            <p className="text-4xl font-extralight w-5/6 mb-2">Others</p>
+            {ItemData["Dairy"].map((e, index) => (
+              <ProductItem
+                onSuccess={onSuccess}
+                key={index}
+                name={e.name}
+                price={e.price}
+                image={e.image}
+              />
+            ))}
+          </div>
+        ) : null}
       </div>{" "}
     </div>
   );

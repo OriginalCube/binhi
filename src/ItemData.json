@@ -6,7 +6,43 @@
     { "name": "Apple", "price": 150, "image": "./" },
     { "name": "Apple", "price": 150, "image": "./" }
   ],
+  "Veggies": [
+    { "name": "Milk", "price": 150, "image": "./asstes/images" },
+    { "name": "Egg", "price": 150, "image": "./" },
+    { "name": "Bread", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" }
+  ],
+  "Grains": [
+    { "name": "Milk", "price": 150, "image": "./asstes/images" },
+    { "name": "Egg", "price": 150, "image": "./" },
+    { "name": "Bread", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" }
+  ],
+  "Root": [
+    { "name": "Milk", "price": 150, "image": "./asstes/images" },
+    { "name": "Egg", "price": 150, "image": "./" },
+    { "name": "Bread", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" }
+  ],
+  "Meats": [
+    { "name": "Milk", "price": 150, "image": "./asstes/images" },
+    { "name": "Egg", "price": 150, "image": "./" },
+    { "name": "Bread", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" }
+  ],
+  "Poultry": [
+    { "name": "Milk", "price": 150, "image": "./asstes/images" },
+    { "name": "Egg", "price": 150, "image": "./" },
+    { "name": "Bread", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" }
+  ],
   "Dairy": [
+    { "name": "Milk", "price": 150, "image": "./asstes/images" },
+    { "name": "Egg", "price": 150, "image": "./" },
+    { "name": "Bread", "price": 150, "image": "./" },
+    { "name": "Math", "price": 150, "image": "./" }
+  ],
+  "Others": [
     { "name": "Milk", "price": 150, "image": "./asstes/images" },
     { "name": "Egg", "price": 150, "image": "./" },
     { "name": "Bread", "price": 150, "image": "./" },

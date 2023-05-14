@@ -1,7 +1,9 @@
 import React from "react";
 import TrackItem from "./TrackItem";
+import ItemData from "../ItemData.json";
 
 const Tracking = () => {
+  console.log(ItemData["Dairy"]);
   const products = [
     { name: "Carrots", price: 1500, image: "./assets/products/oshi-cover-gif" },
     { name: "Carrots", price: 1500, image: "./assets/products/oshi-cover-gif" },
@@ -15,13 +17,13 @@ const Tracking = () => {
         <div style={{ width: "85%" }} className=" h-full ">
           <div className="h-full flex flex-col m-auto" style={{ width: "95%" }}>
             <div className="h-1/6 w-full">
-              <p className="mt-12 ml-5 text-7xl font-medium text-green-500">
+              <p className="mt-12 ml-5 text-7xl font-medium text-yellow-500">
                 Cart
               </p>
             </div>
             <div className="w-full h-full">
-              <div className="w-full h-auto m-auto border-t-2 border-green-500">
-                {products.map((e, index) => (
+              <div className="w-full h-auto m-auto border-t-2 border-yellow-500">
+                {ItemData["fruits"].map((e, index) => (
                   <TrackItem
                     key={index}
                     name={e.name}
@@ -53,7 +55,7 @@ const Tracking = () => {
               </div>
             </div>
             <div className="h-2/6 w-full ">
-              <button className="w-5/6 h-2/3 m-auto ml-5 p-2 border-2 border-green-500 text-green-500 rounded-xl shadow-lg hover:bg-green-500 hover:text-white">
+              <button className="w-5/6 h-2/3 m-auto ml-5 p-2 border-2 border-yellow-500 text-yellow-500 rounded-xl shadow-lg hover:bg-yellow-500 hover:text-white">
                 Purchase Now
               </button>
             </div>

@@ -23,7 +23,7 @@ const Optionbar = (props) => {
         <div className="flex mt-2 ">
           <img
             onClick={props.onOption}
-            className="h-24 w-1/2 m-auto p-3 rounded-xl opacity-80"
+            className="h-24 w-1/2 m-auto p-3 rounded-xl opacity-90"
             src="./assets/images/Logo.png"
             alt=""
           />
@@ -53,7 +53,7 @@ const Optionbar = (props) => {
                 <div className="w-5/6 m-auto mt-2 flex">
                   <img
                     src="./assets/icons/home.png"
-                    className="h-8 w-8 mr-3 opacity-80"
+                    className="h-8 w-8 mr-3 opacity-90"
                     alt=""
                   />
                   <p>Home</p>{" "}
@@ -63,7 +63,7 @@ const Optionbar = (props) => {
                 <div className="w-5/6 m-auto mt-2 flex">
                   <img
                     src="./assets/icons/user.png"
-                    className="h-8 w-8 mr-3 opacity-80"
+                    className="h-8 w-8 mr-3 opacity-90"
                     alt=""
                   />
                   <p>Account</p>{" "}
@@ -73,7 +73,7 @@ const Optionbar = (props) => {
                 <div className="w-5/6 m-auto mt-2 flex">
                   <img
                     src="./assets/icons/delivery-truck.png"
-                    className="h-8 w-8 mr-3 opacity-80"
+                    className="h-8 w-8 mr-3 opacity-90"
                     alt=""
                   />
                   <p>Order Tracking</p>{" "}
@@ -83,7 +83,7 @@ const Optionbar = (props) => {
                 <div className="w-5/6 m-auto mt-2 flex">
                   <img
                     src="./assets/icons/about.png"
-                    className="h-8 w-8 mr-3 opacity-80"
+                    className="h-8 w-8 mr-3 opacity-90"
                     alt=""
                   />
                   <p>About Us</p>{" "}
@@ -92,16 +92,16 @@ const Optionbar = (props) => {
               <div className="w-5/6 m-auto mt-2 flex">
                 <img
                   src="./assets/icons/question.png"
-                  className="h-8 w-8 mr-3 opacity-80"
+                  className="h-8 w-8 mr-3 opacity-90"
                   alt=""
                 />
                 <p>Help</p>{" "}
               </div>
-              <Link to="about">
+              <Link to="products">
                 <div className="w-5/6 m-auto mt-2 flex">
                   <img
                     src="./assets/icons/about.png"
-                    className="h-8 w-8 mr-3 opacity-80"
+                    className="h-8 w-8 mr-3 opacity-90"
                     alt=""
                   />
                   <p>Product</p>{" "}
@@ -113,7 +113,7 @@ const Optionbar = (props) => {
         <div className="w-5/6 m-auto mt-4 flex">
           <img
             src="./assets/icons/bell.png"
-            className="h-8 w-8 mr-3 opacity-80"
+            className="h-8 w-8 mr-3 opacity-90"
             alt=""
           />
           <p className="text-3xl font-lightbold opacity-80 text-center">

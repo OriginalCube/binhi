@@ -25,7 +25,7 @@ const ProductItem = (props) => {
           </div>
           <div className="w-full h-1/2 p-1 flex ">
             <div className="w-1/3">
-              <p className="text-sm text-left pl-1 text-yellow-600">
+              <p className="text-sm text-left pl-1 text-green-600">
                 ₱{props.price}
               </p>
             </div>

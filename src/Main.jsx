@@ -6,6 +6,7 @@ import Login from "./components/accounts/Login";
 import Products from "./components/product/Products";
 import Tracking from "./components/Tracking";
 import About from "./components/About";
+import Farmer from "./components/accounts/Farmer";
 
 const Main = () => {
   const [option, setOption] = React.useState(false);
@@ -24,6 +25,7 @@ const Main = () => {
           <Route path="products" element={<Products />} />
           <Route path="tracking" element={<Tracking />} />
           <Route path="about" element={<About />} />
+          <Route path="farmers" element={<Farmer />} />
         </Routes>
       </div>
     </div>

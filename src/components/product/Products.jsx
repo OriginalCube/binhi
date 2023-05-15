@@ -56,7 +56,7 @@ const Products = () => {
         {productId[0] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Fruits
               </p>
               {ItemData["fruits"].map((e, index) => (
@@ -74,7 +74,7 @@ const Products = () => {
         {productId[1] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Veggies
               </p>
               {ItemData["Veggies"].map((e, index) => (
@@ -92,7 +92,7 @@ const Products = () => {
         {productId[2] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Grains
               </p>
               {ItemData["Grains"].map((e, index) => (
@@ -110,7 +110,7 @@ const Products = () => {
         {productId[3] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Root{" "}
               </p>
               {ItemData["Root"].map((e, index) => (
@@ -128,7 +128,7 @@ const Products = () => {
         {productId[4] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Meats{" "}
               </p>
               {ItemData["Meats"].map((e, index) => (
@@ -146,7 +146,7 @@ const Products = () => {
         {productId[5] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Poultry{" "}
               </p>
               {ItemData["Poultry"].map((e, index) => (
@@ -164,7 +164,7 @@ const Products = () => {
         {productId[6] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Dairy{" "}
               </p>
               {ItemData["Dairy"].map((e, index) => (
@@ -182,7 +182,7 @@ const Products = () => {
         {productId[7] ? (
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
-              <p className="text-3xl p-2 text-emerald-600 border-b-2 border-green-500 w-full font-normal ml-4 mb-2">
+              <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
                 Others{" "}
               </p>
               {ItemData["Others"].map((e, index) => (

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="h-screen w-full pt-12 flex ">
-      <div className="relative w-5/6 h-5/6 m-auto ">
+    <div className="h-screen w-full flex ">
+      <div className="relative w-5/6 h-5/6 m-auto pt-12 ">
         <div className="h-1/3 w-full">
           <img
             className="m-auto w-auto h-52"

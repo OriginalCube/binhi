@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 
 const Front = () => {
   return (
     <div className="h-auto w-full">
       <div className="h-screen flex relative">
-        <div className="h-full w-2/3 relative flex flex-col  pl-10 ">
+        <div className="h-full w-2/3 relative flex flex-col pl-10 ">
           <div className="mt-60" style={{ width: "85%" }}>
             <p className="text-6xl font-bold leading-snug opacity-90 text-justify">
               Welcome to our website, where you can find a wide

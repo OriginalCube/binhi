@@ -110,7 +110,7 @@ const Farmer = () => {
     <div className="h-screen w-full">
       <img
         src="./assets/images/bg-pattern.png"
-        className=" h-full absolute opacity-75"
+        className=" h-full absolute opacity-75 object-cover"
         style={{ width: "85vw" }}
         alt=""
       />

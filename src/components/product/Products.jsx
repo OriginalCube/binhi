@@ -111,7 +111,7 @@ const Products = () => {
           <div className="h-full w-full bg-indigo-100">
             <div className="h-auto bg-indigo-100 w-5/6 m-auto pb-10 flex flex-wrap justify-evenly">
               <p className="text-3xl p-2 text-yellow-500 border-b-2 border-yellow-500 w-full font-normal ml-4 mb-2">
-                Root{" "}
+                Roots Crops{" "}
               </p>
               {ItemData["Root"].map((e, index) => (
                 <ProductItem

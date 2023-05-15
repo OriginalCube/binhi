@@ -38,7 +38,7 @@ const Login = () => {
             </Link>
           </div>
           <div className="w-full h-auto">
-            <Link to="customer">
+            <Link to="../farmers">
               <p
                 className="w-1/2 h-24 text-center text-4xl font-medium p-6 text-yellow-500 
             hover:cursor-pointer hover:bg-yellow-500 hover:text-indigo-100 m-auto border-2 border-yellow-500 rounded-xl shadow-xl"

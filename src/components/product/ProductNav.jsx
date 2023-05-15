@@ -13,12 +13,12 @@ const ProductNav = (props) => {
           />{" "}
         </div>
       </div>
-      <div className=" h-2/3 w-5/6 m-auto mt-10 flex text-emerald-600">
+      <div className=" h-2/3 w-5/6 m-auto mt-10 flex text-amber-600">
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(-1)}
             className="m-auto h-16 w-16 rounded p-2"
-            src="./assets/icons/menu-bar.png"
+            src="./assets/icons/apps.png"
             alt=""
           />
           <p className="text-center font-medium">Featured</p>
@@ -35,8 +35,8 @@ const ProductNav = (props) => {
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(0)}
-            className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            className="m-auto h-16 w-16 p-2"
+            src="./assets/icons/fruits.png"
             alt=""
           />
           <p className="text-center font-medium">Fruits</p>
@@ -44,8 +44,8 @@ const ProductNav = (props) => {
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(1)}
-            className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            className="m-auto h-16 w-16 p-2"
+            src="./assets/icons/vegetable.png"
             alt=""
           />
           <p className="text-center font-medium">Veggies</p>
@@ -53,8 +53,8 @@ const ProductNav = (props) => {
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(2)}
-            className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            className="m-auto h-16 w-16 p-2"
+            src="./assets/icons/bread.png"
             alt=""
           />
           <p className="text-center font-medium">Grains</p>
@@ -62,8 +62,8 @@ const ProductNav = (props) => {
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(3)}
-            className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            className="m-auto h-16 w-16 p-2"
+            src="./assets/icons/wheat.png"
             alt=""
           />
           <p className="text-center font-medium">Roots Crops</p>
@@ -71,8 +71,8 @@ const ProductNav = (props) => {
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(4)}
-            className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            className="m-auto h-16 w-16 p-2"
+            src="./assets/icons/meat.png"
             alt=""
           />
           <p className="text-center font-medium">Meats</p>
@@ -80,8 +80,8 @@ const ProductNav = (props) => {
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(5)}
-            className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            className="m-auto h-16 w-16 p-2"
+            src="./assets/icons/poultry.png"
             alt=""
           />
           <p className="text-center font-medium">Poultry</p>
@@ -89,8 +89,8 @@ const ProductNav = (props) => {
         <div className="cursor-pointer h-full w-full">
           <img
             onClick={() => props.changeNav(6)}
-            className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            className="m-auto h-16 w-16 p-2"
+            src="./assets/icons/dairy-products.png"
             alt=""
           />
           <p className="text-center font-medium">Dairy</p>
@@ -99,7 +99,7 @@ const ProductNav = (props) => {
           <img
             onClick={() => props.changeNav(7)}
             className="m-auto h-16 w-16 rounded-full p-2"
-            src="./assets/icons/heart.png"
+            src="./assets/icons/menu.png"
             alt=""
           />
           <p className="text-center font-medium">Others</p>

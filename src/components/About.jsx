@@ -35,6 +35,20 @@ const About = () => {
   );
   return (
     <div className="w-full h-auto">
+      <div className="w-full h-screen flex flex-col">
+        <div className="w-full h-1/6 ">
+          <p className="text-6xl pl-4 pt-20 pb-4 font-medium border-b-2 border-black">
+            Mission and Vission
+          </p>
+        </div>
+        <div className="w-1/2 h-5/6">
+          <div className="w-full h-full">
+            <p className="text-xl border-b-2 font-thin border-">
+              Mission and Vission
+            </p>{" "}
+          </div>
+        </div>
+      </div>
       <div className="w-full h-screen">
         {details.map((e) => (
           <AboutTemplate name={e.name} role={e.role} details={e.details} />

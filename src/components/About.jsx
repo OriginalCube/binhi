@@ -16,7 +16,7 @@ const About = () => {
     },
   ];
   const AboutTemplate = (ev) => (
-    <div className="w-full h-1/2 flex flex-col">
+    <div className="w-full h-1/2 flex flex-col bg-indigo-100">
       <div className="h-48 w-5/6 m-auto flex">
         <div className="w-1/6">
           <img
@@ -44,7 +44,7 @@ const About = () => {
         <div className="flex h-5/6">
           <div className="h-5/6 w-1/2 border-2">
             <div className="w-5/6 h-full m-auto ">
-              <p className="tracking-wider text-left mt-28 text-5xl font-light opacity-90">
+              <p className="tracking-wider text-left mt-14 text-4xl pt-24 font-light opacity-90">
                 "To nourish and sustain our communities through responsible
                 farming practices, providing fresh, high-quality, and nutritious
                 food while preserving the environment and promoting the
@@ -52,10 +52,21 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="min-h-max mt-10 border-2 border-black left-2/3 w-1/2 "></div>
+          <div className="min-h-max mt-10 left-2/3 w-1/2 ">
+            <img
+              src="./assets/images/about.png"
+              className="w-full h-full"
+              alt=""
+            />
+          </div>
         </div>
       </div>
       <div className="w-full h-screen">
+        <div className="w-full h-1/6 z-10 bg-indigo-100">
+          <p className="text-6xl pl-4 pt-20 pb-4 font-semibold border-b-2 border-amber-500 text-amber-500">
+            Meet our Officers
+          </p>
+        </div>
         {details.map((e) => (
           <AboutTemplate name={e.name} role={e.role} details={e.details} />
         ))}{" "}

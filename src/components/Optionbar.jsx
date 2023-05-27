@@ -89,14 +89,16 @@ const Optionbar = (props) => {
                   <p>About Us</p>{" "}
                 </div>{" "}
               </Link>
-              <div className="w-5/6 m-auto mt-2 flex">
-                <img
-                  src="./assets/icons/question.png"
-                  className="h-8 w-8 mr-3 opacity-90"
-                  alt=""
-                />
-                <p>Help</p>{" "}
-              </div>
+              <Link to={"contact"}>
+                <div className="w-5/6 m-auto mt-2 flex">
+                  <img
+                    src="./assets/icons/question.png"
+                    className="h-8 w-8 mr-3 opacity-90"
+                    alt=""
+                  />
+                  <p>Help</p>{" "}
+                </div>{" "}
+              </Link>
               <Link to="products">
                 <div className="w-5/6 m-auto mt-2 flex">
                   <img
